@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    class Stack
+    class Stack : Imanipulations
     {
+        void Imanipulations.AddElement(int a)
+        {
+            throw new NotImplementedException();
+        }
+
+        void Imanipulations.RemElement()
+        {
+            throw new NotImplementedException();
+        }
+
+        void Imanipulations.Display()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

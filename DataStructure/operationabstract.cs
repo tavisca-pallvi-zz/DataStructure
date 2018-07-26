@@ -6,7 +6,49 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    class operationabstract
-    {
+
+
+
+    abstract class {
+        abstract public int peek();
+
+
+
+        abstract public int  IsEmpty();
+
+
+
+        abstract public  int IsFull();
+
+
+
     }
 }
+
+    /*public abstract class AddElements
+    {
+        public void AddAtEnd()
+        {
+
+        }
+        public void AddAtFirst()
+        {
+
+        }
+    }
+
+    public abstract class Remove
+    {
+        public void RemoveAtFirst()
+        {
+
+        }
+        public void RemoveAtLast()
+        {
+
+        }
+    }
+    */
+
+
+

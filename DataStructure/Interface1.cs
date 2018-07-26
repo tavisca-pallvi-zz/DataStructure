@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    interface Interface1
+    interface Imanipulations
     {
+       void AddElement(int a);
+        void RemElement();
+        
+        void Display();
+
     }
 }
